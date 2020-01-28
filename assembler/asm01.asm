@@ -13,10 +13,18 @@
 .stack 4096  
 ExitProcess proto,dwExitCode:dword
 
+.data
+val1 DWORD 20002000h
+val2 DWORD 11111111h
+val3 DWORD 22222222h
+sum DWORD 0
+
 .code  
 main proc  
-	mov eax,5  ;breakpoint查看寄存器值变化                 
-	add eax,6                 
+	mov eax,val1  ;breakpoint查看寄存器值变化                 
+	add eax,val2
+	add eax,val3
+	mov sum,eax
 	invoke ExitProcess,0  
 main endp  
 end main
