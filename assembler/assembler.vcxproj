@@ -158,6 +158,7 @@
   <ItemGroup>
     <MASM Include="asm01.asm" />
     <MASM Include="asm02.asm" />
+    <MASM Include="sumArray.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

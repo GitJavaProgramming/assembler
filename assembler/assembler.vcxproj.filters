@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="asm02.asm">
+    <MASM Include="sumArray.asm">
       <Filter>源文件</Filter>
     </MASM>
     <MASM Include="asm01.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="asm02.asm">
       <Filter>源文件</Filter>
     </MASM>
   </ItemGroup>
