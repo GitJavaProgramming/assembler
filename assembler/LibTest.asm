@@ -3,6 +3,16 @@
 ;include包含的是INC头文件，里面有结构等声明还有一些宏定义 声明只是声明有这个东西而已 
 ;includelib 包含LIB静态库，这种LIB中有函数的实现代码 会在链接时将实现代码加入目标模块
 ;以供调用 相当于存子程序代码
+;
+;需要添加外部库包含在项目属性中
+;【链接器】-【常规】-【附加库目录】
+;【链接器】-【输入】-【附加依赖项】
+;【Microsoft Macro assemble】-【IncludePaths】
+;
+;使用VS2017测试时，如果报发现病毒需要做两个判断是否vs2017设置了不受信任路径
+;【工具】-【选项】-【环境】-【信任设置】
+;windows是否设置了软件不受信任  本机win10
+;【windows安全中心】-【病毒和威胁防护】-【病毒和威胁防护设置】-【添加或删除排除项】
 ;------------------------------------------------------------------------------------
 include Irvine32.inc
 
@@ -10,7 +20,7 @@ include Irvine32.inc
 COUNT=4
 BlueTextOnGray = blue+(lightGray*16)
 DefaultColor = lightGray + (black*16)
-arrayD SWORD 12345678h,1A4B2000h,3434h,7AB9h
+arrayD SDWORD 12345678h,1A4B2000h,3434h,7AB9h
 prompt BYTE "Enter a 32bit signed integer:",0
 
 .code
