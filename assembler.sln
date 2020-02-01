@@ -7,6 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assembler", "assembler\asse
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63826148-EF2A-457A-BA9A-8B99C8DBDEEE}"
 	ProjectSection(SolutionItems) = preProject
+		Irvine.zip = Irvine.zip
 		README.md = README.md
 	EndProjectSection
 EndProject
