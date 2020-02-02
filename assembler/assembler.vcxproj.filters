@@ -15,8 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="LibTest.asm">
+    <MASM Include="_arrysum.asm">
       <Filter>源文件</Filter>
     </MASM>
+    <MASM Include="_display.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="_prompt.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="Sum_main.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sum.inc">
+      <Filter>头文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

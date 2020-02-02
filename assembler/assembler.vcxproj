@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="LibTest.asm" />
+    <MASM Include="Sum_main.asm" />
+    <MASM Include="_arrysum.asm" />
+    <MASM Include="_display.asm" />
+    <MASM Include="_prompt.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sum.inc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
